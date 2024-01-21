@@ -66,7 +66,7 @@ http {
 
     server {
         listen 80;
-        server_name xxxxx - ip address of ec2;  # Replace with your actual IP address or domain name
+        server_name xxxxx - ip address of ec2;  # Replace with your actual IP address or domain name, IP like 123.01.21.245 or domain name like onemart.com every time you change config file restart nginx
 
         location / {
             proxy_pass http://localhost:3000;  # Replace with the actual port of your Node.js backend
