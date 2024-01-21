@@ -101,6 +101,14 @@ connected to db
 
 hurray! The website is live on public ip provided by ec2
 
+making the app live forever
+
+[ec2-user@ip-172-31-10-178 OneMart]$ sudo npm install -g pm2
+
+[ec2-user@ip-172-31-10-178 OneMart]$ pm2 start backend/server.js --name one-mart
+
+Now, your app is live forever
+
 
 
 
